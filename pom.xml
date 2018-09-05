@@ -4,6 +4,16 @@
   <artifactId>Payment-Billing-System-master</artifactId>
   <version>0.0.1-SNAPSHOT</version>
   <packaging>war</packaging>
+  <dependencies>
+        <dependency>
+            <groupId>javax.servlet</groupId>
+            <artifactId>javax.servlet-api</artifactId>
+            <version>3.0.1</version>
+            <scope>provided</scope>
+        </dependency>
+    </dependencies>
+  <profiles>
+  <profile>
   <build>
   <plugins>
   <plugin>            
@@ -24,5 +34,6 @@
     </plugin>
   </plugins>
   </build>
-  
+  </profile>
+  </profiles>
   </project>
